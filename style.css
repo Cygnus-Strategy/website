@@ -13,7 +13,23 @@ body {
 p {
   text-align: center;
   line-height: 2.3rem;
-  padding: 0rem;
+  padding: 0;
+  width: 100%;
+}
+
+ul {
+  font-weight: 300;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  justify-content: space-between;
+  text-align: center;
+}
+  
+li {
+  float: left;
   width: 100%;
 }
 
@@ -22,7 +38,7 @@ li a {
 }
     
 ul li a.active-page {
-  color: #df5b30
+  color: #df5b30;
 }
 
 a:link {
@@ -40,23 +56,7 @@ a:hover {
 dt {
   text-align: center;
   line-height: 2.3rem;
-  padding: 0rem;
-  width: 100%;
-}
-
-ul {
-  font-weight: 300;
-  display: flex;
-  list-style-type: none;
-  margin: 0;
   padding: 0;
-  overflow: hidden;
-  justify-content: space-between;
-  text-align: center;
-}
-
-li {
-  float: left;
   width: 100%;
 }
 
@@ -65,10 +65,10 @@ li {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  padding: 1.5rem 0rem 1rem;
+  padding: 1.5rem 0 1rem;
 }
 
 .copyright {
-  padding: 0rem;
+  padding: 0;
   color: #eff2f369;
 }
