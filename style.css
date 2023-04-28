@@ -27,7 +27,7 @@ ul {
   justify-content: space-between;
   text-align: center;
 }
-  
+
 li {
   float: left;
   width: 100%;
@@ -36,7 +36,7 @@ li {
 li a {
   display: block;
 }
-    
+
 ul li a.active-page {
   color: #df5b30;
 }
